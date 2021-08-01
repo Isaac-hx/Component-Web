@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #ddd;
+    color: rgb(39, 43, 100);
+    
+}
+.card-container{
+    width: 360px;
+    height: 300px;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 100px auto;
+    box-shadow: 7px 8px 9px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+
+}
+ul li img{
+    width: 60px;
+    height: 60px;
+}
+close img{
+    width: 30px;
+}
+h2{
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+
+.card-container ul{
+    margin: -7px 7px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+form input{
+    display: block;
+    padding: 15px 20px;
+    margin: auto;
+    border:none;
+}
+
+input#send{
+    background-color: rgb(39, 43, 100);
+    padding: 10px 15px;
+    color:white;
+    border-radius: 10px;
+    border:none;
+    float: right;
+    margin-right: 55px;
+    margin-top: 5px;
+}
+
+.close{
+    font-size: 20px;
+    position:relative;
+    bottom: 400px;
+    left: 825px;
+    cursor: pointer;
+
+}
+
+
+
+.closed{
+    display: none;
+}
+

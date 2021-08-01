@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+}
+
+.container-modal{
+    background-color: white;
+    width: 400px;
+    padding: 50px;
+    margin: 250px auto;
+    color: rgb(140, 88, 184);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    padding: 13px 0;
+}
+p{
+    padding: 7px 0;
+}
+
+form{
+    padding:10px 0;
+}
+
+form input{
+    padding: 19px 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form input#yes{
+    background-color: rgb(140, 88, 184);
+    margin-right: 10px;
+    color: white;
+    border:1px solid white;
+}
+
+form input#no{
+    background-color: white;
+    color:rgb(140, 88, 184);
+    border: 1px solid rgb(140, 88, 184);
+}
+
+form input#yes:hover{
+    background-color: rgb(111, 60, 153);
+}
+form input#no:hover{
+    background-color: rgba(199, 190, 190, 0.2);
+}
+
+
+
+
+
