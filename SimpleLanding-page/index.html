@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Navbar -->
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Documents</li>
+                <li>Api</li>
+                <li>About</li>
+                <li>Log in</li>
+                <li>Sign up</li>
+            </ul>
+            
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>  
+            </div>
+
+            
+        </nav>
+
+        <!-- Navbar-end -->
+
+        <!-- Content -->
+        <main>
+            <div class="container-content">
+                <h1>Steps In Installing</h1>
+                <h1> Rack Mount Lcd</h1>
+                <h1>Monitors</h1>
+                <br>
+                <p>Do you know what could bear the exciting feeling</p>
+                <p>of having a new computer? Make your own PC!</p>
+            </div>
+        </main>
+        <!-- Content-end -->
+
+
+        <footer>
+            <ul>
+
+                <li>
+                    <h2>Discover the best</h2>
+                    <h2>stores near you</h2>
+                    <br>
+                    <h2>Norway</h2>
+                </li>
+
+                <li>
+                    <h2>Resources</h2>
+                    <br>
+                    <p>Do you know what could beat the</p>
+                    <p>exciting feeling of having a new</p>
+                    <p>computer?Make your own PC!</p>
+                </li>
+
+                <li>
+                    <h2>+5K tools for you to</h2>
+                    <h2>to choose from</h2>
+                    <br>
+                    <button><h4>Learn more</h4></button>
+                </li>
+            </ul>
+        </footer>
+        <!-- Footer-end -->
+
+
+    </div>
+
+    <script>
+        const HamburgerToogle = document.getElementsByClassName('hamburger-menu')[0];
+        const Menu = document.getElementsByTagName('ul')[0];
+        HamburgerToogle.addEventListener('click',() =>{
+            Menu.classList.toggle('active')
+
+        })
+    </script>
+    
+</body>
+</html>
